@@ -1,1 +1,1 @@
-# Typescript template
+# RabbitMQ
