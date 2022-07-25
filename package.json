@@ -4,7 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-producer-e04": "ts-node ./src/e04/producer.ts",
+    "start-consumer-e04": "ts-node ./src/e04/consumer.ts",
+    "start-consumer-e04-2": "ts-node ./src/e04/consumer2.ts",
+    "start-producer-e08": "ts-node ./src/e08/producer.ts",
+    "start-consumer-e08": "ts-node ./src/e08/consumer.ts",
+    "start-producer-e10": "ts-node ./src/e10/producer.ts",
+    "start-first-consumer-e10": "ts-node ./src/e10/first-consumer.ts",
+    "start-second-consumer-e10": "ts-node ./src/e10/second-consumer.ts"
   },
   "repository": {
     "type": "git",
@@ -17,9 +24,11 @@
   },
   "homepage": "https://github.com/Kruuux/typescript-template#readme",
   "dependencies": {
+    "amqplib": "^0.10.0",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
+    "@types/amqplib": "^0.8.2",
     "@types/jest": "^28.1.6",
     "@types/node": "^18.0.6",
     "eslint": "^8.20.0",
