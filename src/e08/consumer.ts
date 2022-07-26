@@ -12,7 +12,7 @@ import amqplib from 'amqplib';
     if (msg !== null) {
       await new Promise((r) => setTimeout(r, 2000));
       console.log(
-        `Recieved: ${msg.content.toString()} | ${new Date().toUTCString()}`
+        `Received: ${msg.content.toString()} | ${new Date().toUTCString()}`
       );
       ch1.ack(msg);
     } else {
