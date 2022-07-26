@@ -6,12 +6,18 @@
   "scripts": {
     "start-producer-e04": "ts-node ./src/e04/producer.ts",
     "start-consumer-e04": "ts-node ./src/e04/consumer.ts",
-    "start-consumer-e04-2": "ts-node ./src/e04/consumer2.ts",
+
     "start-producer-e08": "ts-node ./src/e08/producer.ts",
     "start-consumer-e08": "ts-node ./src/e08/consumer.ts",
+
     "start-producer-e10": "ts-node ./src/e10/producer.ts",
     "start-first-consumer-e10": "ts-node ./src/e10/first-consumer.ts",
-    "start-second-consumer-e10": "ts-node ./src/e10/second-consumer.ts"
+    "start-second-consumer-e10": "ts-node ./src/e10/second-consumer.ts",
+
+    "start-producer-e12": "ts-node ./src/e12/producer.ts",
+    "start-first-consumer-e12": "ts-node ./src/e12/first-consumer.ts",
+    "start-second-consumer-e12": "ts-node ./src/e12/second-consumer.ts",
+    "start-third-consumer-e12": "ts-node ./src/e12/third-consumer.ts"
   },
   "repository": {
     "type": "git",
