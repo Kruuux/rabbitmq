@@ -17,7 +17,10 @@
     "start-producer-e12": "ts-node ./src/e12/producer.ts",
     "start-first-consumer-e12": "ts-node ./src/e12/first-consumer.ts",
     "start-second-consumer-e12": "ts-node ./src/e12/second-consumer.ts",
-    "start-third-consumer-e12": "ts-node ./src/e12/third-consumer.ts"
+    "start-third-consumer-e12": "ts-node ./src/e12/third-consumer.ts",
+    
+    "start-client-e14": "ts-node ./src/e14/client.ts",
+    "start-server-e14": "ts-node ./src/e14/server.ts"
   },
   "repository": {
     "type": "git",
