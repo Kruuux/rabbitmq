@@ -26,7 +26,13 @@
     "ex-ex-producer-e16": "ts-node ./src/e16/exchange-exchange/producer.ts",
 
     "h-ex-consumer-e16": "ts-node ./src/e16/headers-exchange/consumer.ts",
-    "h-ex-producer-e16": "ts-node ./src/e16/headers-exchange/producer.ts"
+    "h-ex-producer-e16": "ts-node ./src/e16/headers-exchange/producer.ts",
+    "al-ex-consumer-e19": "ts-node ./src/e19/alternative-exchange/consumer.ts",
+    "al-ex-producer-e19": "ts-node ./src/e19/alternative-exchange/producer.ts",
+    "deadletter-ex-consumer-e19": "ts-node ./src/e19/deadletter-exchange/consumer.ts",
+    "deadletter-ex-producer-e19": "ts-node ./src/e19/deadletter-exchange/producer.ts",
+    "ar-messages-consumer-e19": "ts-node ./src/e19/accept-reject-messages/consumer.ts",
+    "ar-messages-producer-e19": "ts-node ./src/e19/accept-reject-messages/producer.ts"
   },
   "repository": {
     "type": "git",
