@@ -20,7 +20,13 @@
     "start-third-consumer-e12": "ts-node ./src/e12/third-consumer.ts",
     
     "start-client-e14": "ts-node ./src/e14/client.ts",
-    "start-server-e14": "ts-node ./src/e14/server.ts"
+    "start-server-e14": "ts-node ./src/e14/server.ts",
+
+    "ex-ex-consumer-e16": "ts-node ./src/e16/exchange-exchange/consumer.ts",
+    "ex-ex-producer-e16": "ts-node ./src/e16/exchange-exchange/producer.ts",
+
+    "h-ex-consumer-e16": "ts-node ./src/e16/headers-exchange/consumer.ts",
+    "h-ex-producer-e16": "ts-node ./src/e16/headers-exchange/producer.ts"
   },
   "repository": {
     "type": "git",
